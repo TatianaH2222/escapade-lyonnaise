@@ -1,0 +1,24 @@
+export default function Salon() {
+  return (
+    <main style={{ maxWidth: 900, margin: "auto", padding: "2rem" }}>
+      <h1>Le salon et la salle à manger</h1>
+
+      <p>
+        Une pièce de vie lumineuse et accueillante, pensée comme un espace de
+        détente et de convivialité.
+      </p>
+
+      <p>
+        Le salon bénéficie d’une belle lumière naturelle et d’une atmosphère
+        calme, propice au repos, à la lecture ou aux moments partagés.
+      </p>
+
+      <p>
+        L’espace salle à manger permet de prendre les repas confortablement,
+        dans un cadre simple, chaleureux et apaisant.
+      </p>
+    </main>
+  );
+}
+``
+

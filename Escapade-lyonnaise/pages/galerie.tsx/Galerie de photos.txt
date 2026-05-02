@@ -1,0 +1,22 @@
+export default function Galerie() {
+  return (
+    <main style={{ maxWidth: 1000, margin: "auto", padding: "2rem" }}>
+      <h1>Galerie photos</h1>
+
+      <p>
+        Cette galerie présente des photos réelles de l’appartement,
+        prises dans des conditions normales, afin de refléter fidèlement
+        les espaces et l’ambiance du logement.
+      </p>
+
+      <div style={{ display: "grid", gap: "1rem", marginTop: "2rem" }}>
+        {/* Exemple – tu ajouteras tes vraies images */}
+        <img src="/images/salon.jpg" alt="Salon lumineux" />
+        <img src="/images/chambre-principale.jpg" alt="Chambre principale" />
+        <img src="/images/seconde-chambre.jpg" alt="Seconde chambre" />
+        <img src="/images/cuisine.jpg" alt="Cuisine indépendante" />
+      </div>
+    </main>
+  );
+}
+

@@ -1,0 +1,29 @@
+export default function Home() {
+  return (
+    <main style={{ maxWidth: 900, margin: "auto", padding: "2rem" }}>
+      <h1>Appartement calme et lumineux à la Croix Rousse – Lyon 4</h1>
+
+      <p>
+        Situé dans le quartier emblématique de la Croix Rousse, cet appartement lumineux
+        offre un cadre de séjour paisible, dans un environnement résidentiel arboré.
+      </p>
+
+      <p>
+        Les espaces sont confortables et bien agencés, favorisant une atmosphère calme et chaleureuse,
+        idéale pour se reposer après une journée à Lyon.
+      </p>
+
+      <p>
+        Le logement bénéficie d’une <strong>ouverture extérieure agréable</strong>,
+        apportant lumière naturelle et sensation de respiration,
+        dans un contexte urbain discret et serein.
+      </p>
+
+      <nav style={{ marginTop: "3rem" }}>
+        <a href="/galerie">Galerie photos</a> ·{" "}
+        <a href="/reserver">Réserver</a>
+      </nav>
+    </main>
+  );
+}
+

@@ -1,0 +1,29 @@
+export default function Reserver() {
+  return (
+    <main style={{ maxWidth: 700, margin: "auto", padding: "2rem" }}>
+      <h1>Réserver votre séjour</h1>
+
+      <p>
+        Cette page vous permet de formuler une demande de réservation pour
+        un appartement calme et lumineux, situé au cœur de la Croix Rousse.
+      </p>
+
+      <form>
+        <input placeholder="Nom" required /><br /><br />
+        <input placeholder="Email" type="email" required /><br /><br />
+        <input type="date" required /> → <input type="date" required /><br /><br />
+        <input type="number" min="1" max="6" placeholder="Voyageurs" /><br /><br />
+        <textarea placeholder="Message" rows={4}></textarea><br /><br />
+        <button>Envoyer la demande</button>
+      </form>
+
+      <h2 style={{ marginTop: "3rem" }}>FAQ</h2>
+      <p><strong>Durée minimum</strong> : 3 nuits</p>
+      <p><strong>Arrivée</strong> : à partir de 16h – départ avant 11h</p>
+      <p><strong>Animaux</strong> : non acceptés</p>
+      <p><strong>Appartement non fumeur</strong></p>
+    </main>
+  );
+}
+``
+

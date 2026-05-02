@@ -1,0 +1,19 @@
+export default function ChambrePrincipale() {
+  return (
+    <main style={{ maxWidth: 900, margin: "auto", padding: "2rem" }}>
+      <h1>La chambre principale</h1>
+
+      <p>
+        La chambre principale est un espace calme et confortable, pensé pour
+        offrir des nuits reposantes.
+      </p>
+
+      <p>
+        Elle bénéficie d’une atmosphère paisible, d’un agencement simple et
+        d’une belle lumière naturelle, idéale pour se détendre après une
+        journée à Lyon.
+      </p>
+    </main>
+  );
+}
+

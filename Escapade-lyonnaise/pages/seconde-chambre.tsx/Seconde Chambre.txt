@@ -1,0 +1,18 @@
+export default function SecondeChambre() {
+  return (
+    <main style={{ maxWidth: 900, margin: "auto", padding: "2rem" }}>
+      <h1>La seconde chambre</h1>
+
+      <p>
+        La seconde chambre offre un espace indépendant et agréable, adapté
+        aux séjours en famille ou entre amis.
+      </p>
+
+      <p>
+        Elle permet à chacun de profiter d’un espace personnel, dans un
+        environnement calme et reposant.
+      </p>
+    </main>
+  );
+}
+

@@ -1,0 +1,17 @@
+export default function Cuisine() {
+  return (
+    <main style={{ maxWidth: 900, margin: "auto", padding: "2rem" }}>
+      <h1>La cuisine</h1>
+      <p>
+        Une cuisine indépendante, fonctionnelle et agréable,
+        disposant de tout le nécessaire pour préparer les repas
+        dans un cadre simple et soigné.
+      </p>
+      <p>
+        Cet espace séparé permet de cuisiner en toute tranquillité,
+        tout en conservant le calme et l’harmonie des pièces de vie.
+      </p>
+    </main>
+  );
+}
+
